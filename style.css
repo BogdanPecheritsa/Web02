@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 table {
     border: 2px solid #000;
     width: 40%;
@@ -23,4 +24,46 @@ tr, th, td, tr th {
 
 .table {
     height: 125px;
+}
+
+mark {
+    background-color: aqua;
+}
+
+.general-flexblock {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 20px;
+    align-content: center;
+}
+
+.first-flexblocks-group{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.second-flexblocks-group{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.third-flexblocks-group{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.fourth-flexblocks-group{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.inserted-flexblock{
+    display: flex;
+    flex-direction: column;
 }
