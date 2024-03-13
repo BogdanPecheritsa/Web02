@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table {
+    border: 2px solid #000;
+    width: 40%;
+    border-collapse: collapse;
+}
+
+tr, th, td, tr th {
+    border: 2px solid #000;
+}
+
+.unic tr th {
+    border: none;
+}
+
+.unic td, th, tr, table {
+    border: none;
+}
+
+.table {
+    height: 125px;
+}
