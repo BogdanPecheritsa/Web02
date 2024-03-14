@@ -35,35 +35,76 @@ mark {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    row-gap: 20px;
-    align-content: center;
+    row-gap: 30px;
+    position: relative;
+}
+
+.block-petra-poroshenka{
+    border: 2px solid aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 40px;
+    width: 500px;
+    height: 300px;
+    margin-left: 40px;
+}
+
+.text-flexblock{
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    flex-direction: column;
 }
 
 .first-flexblocks-group{
     display: flex;
     flex-direction: row;
     gap: 50px;
+    justify-content: center;
 }
 
 .second-flexblocks-group{
     display: flex;
     flex-direction: row;
     gap: 50px;
+    justify-content: center;
 }
 
 .third-flexblocks-group{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid aqua;
+    width: 500px;
+    height: 250px;
+    margin-left: 40px;
+    padding-left: 40px;
 }
 
 .fourth-flexblocks-group{
     display: flex;
     flex-direction: row;
     gap: 50px;
+    width: 600px;
+    height: 350px;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid aqua;
+    position: absolute;
+    left: 550px;
+    top: 200px;
 }
 
 .inserted-flexblock{
     display: flex;
     flex-direction: column;
+}
+
+.table6-style{
+    width: 450px;
 }
