@@ -39,7 +39,7 @@ mark {
     position: relative;
 }
 
-.block-petra-poroshenka{
+.block-petra-poroshenka {
     border: 2px solid aqua;
     display: flex;
     flex-direction: column;
@@ -51,28 +51,28 @@ mark {
     margin-left: 40px;
 }
 
-.text-flexblock{
+.text-flexblock {
     display: flex;
     width: 1200px;
     align-items: center;
     flex-direction: column;
 }
 
-.first-flexblocks-group{
+.first-flexblocks-group {
     display: flex;
     flex-direction: row;
     gap: 50px;
     justify-content: center;
 }
 
-.second-flexblocks-group{
+.second-flexblocks-group {
     display: flex;
     flex-direction: row;
     gap: 50px;
     justify-content: center;
 }
 
-.third-flexblocks-group{
+.third-flexblocks-group {
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -85,7 +85,7 @@ mark {
     padding-left: 40px;
 }
 
-.fourth-flexblocks-group{
+.fourth-flexblocks-group {
     display: flex;
     flex-direction: row;
     gap: 50px;
@@ -100,11 +100,19 @@ mark {
     top: 200px;
 }
 
-.inserted-flexblock{
+.inserted-flexblock {
     display: flex;
     flex-direction: column;
 }
 
-.table6-style{
+.table6-style {
     width: 450px;
+}
+
+.task3-padding-style {
+    padding-top: 10px;
+}
+
+.task3-list-style {
+    margin: 25px;
 }
