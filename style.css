@@ -123,6 +123,7 @@ mark {
     height: 150px;
     margin: 10px;
     border-radius: 5px;
+    padding: 10px;
 }
 
 .task3-flexblock {
