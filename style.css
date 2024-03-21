@@ -132,3 +132,12 @@ mark {
     gap: 20px;
     margin-left: 5px;
 }
+
+.index-block {
+    border: 1px solid darkcyan;
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
